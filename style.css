@@ -1,1 +1,28 @@
+/* This means everything. Everything is margin, padding & box-sizing settled as border-box */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+/* Header of the page, which is container for e-portfolio */
+header {
+  /* Displaying the container as flex */
+  display: flex;
+
+  /* Justify content on center */
+  justify-content: center;
+  /* Align items on center */
+  align-items: center;
+
+  /* Showing off border's bottom as 2 pixels, solid and skyblue color */
+  border-bottom: 2px solid skyblue;
+}
+
+/* Text for eportfolio text "#" stands for referencing ID */
+h1#eportfolio {
+  /* Font family which looks like handwritten */
+  font-family: cursive;
+  /* Added some letter spacing to it look good for header */
+  letter-spacing: 7px;
+}
