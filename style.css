@@ -1,1 +1,86 @@
+/* This means everything. Everything is margin, padding & box-sizing settled as border-box */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
+body {
+  background: antiquewhite;
+}
+
+/* Header of the page, which is container for e-portfolio */
+header {
+  background: #01010180;
+  
+  /* Displaying the container as flex */
+  display: flex;
+
+  /* Justify content on center */
+  justify-content: center;
+  /* Align items on center */
+  align-items: center;
+
+  padding-bottom: 10px;
+}
+
+/* Text for eportfolio text "#" stands for referencing ID */
+h1#eportfolio {
+  color: black;
+  /* Font family which looks like handwritten */
+  font-family: cursive;
+  /* Added some letter spacing to it look good for header */
+  letter-spacing: 7px;
+}
+
+/* This is navigation container */
+nav {
+  background: #01010180;
+  
+  display: flex;
+  /* Position is relative, which means it's free to move the items wherever we want to. */
+
+  /* Align items on center */
+  align-items: center;
+  /* Justify content on center */
+  justify-content: space-between;
+
+  /* Font family which looks like handwritten */
+  font-family: cursive;
+  /* Font size of the text */
+  font-size: 24px;
+
+  /* Showing off border's bottom as 2 pixels, solid and skyblue color */
+  border-bottom: 2px dashed navajowhite;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+  padding: 1%;
+}
+
+.nav-left-item {
+  margin-left: 25%;
+}
+
+.nav-right-item {
+  margin-right: 25%;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+  text-align: center;
+
+  margin-top: 6em;
+}
+
+img#micha {
+  width: 200px;
+  height: 200px;
+  
+  border-radius: 10px;
+}
