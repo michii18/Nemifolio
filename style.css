@@ -5,8 +5,17 @@
   box-sizing: border-box;
 }
 
+/* The body element, you can think it as a big container */
+body {
+  /* Setting background color yo antique white */
+  background: antiquewhite;
+}
+
 /* Header of the page, which is container for e-portfolio */
 header {
+  /* Settling header background color to almost black with 80% opacity */
+  background: #01010180;
+
   /* Displaying the container as flex */
   display: flex;
 
@@ -15,14 +24,83 @@ header {
   /* Align items on center */
   align-items: center;
 
-  /* Showing off border's bottom as 2 pixels, solid and skyblue color */
-  border-bottom: 2px solid skyblue;
+  padding-bottom: 10px;
 }
 
 /* Text for eportfolio text "#" stands for referencing ID */
 h1#eportfolio {
+  /* Changing text color to black */
+  color: black;
   /* Font family which looks like handwritten */
   font-family: cursive;
   /* Added some letter spacing to it look good for header */
   letter-spacing: 7px;
+}
+
+/* This is navigation container */
+nav {
+  /* Settling header background color to almost black with 80% opacity */
+  background-color: #01010180;
+
+  /* Displaying items as flexible */
+  display: flex;
+
+  /* Align items on center */
+  align-items: center;
+  /* Justify content on center */
+  justify-content: space-between;
+
+  /* Font family which looks like handwritten */
+  font-family: cursive;
+  /* Font size of the text */
+  font-size: 24px;
+
+  /* Showing off border's bottom as 2 pixels, solid and skyblue color */
+  border-bottom: 2px dashed navajowhite;
+}
+
+/* Setting all link tags */
+a {
+  /* Instead underlined blue text, we make it "none" */
+  text-decoration: none;
+  /* Black color for link text */
+  color: black;
+  /* And a little bit padding to make it look good, such as button */
+  padding: 1%;
+}
+
+/* Class for left nav item */
+.nav-left-item {
+  margin-left: 25%;
+}
+
+/* Class for right nav item */
+.nav-right-item {
+  margin-right: 25%;
+}
+
+/* Main content of page */
+main {
+  /* Making the container as flex 💪🏻 */
+  display: flex;
+  /* making the child items direction as column ⬇️ */
+  flex-direction: column;
+
+  /* Vertical alignment */
+  align-items: center;
+  /* Text alignment */
+  text-align: center;
+
+  /* And let's add some space to top */
+  margin-top: 6em;
+}
+
+/* Updating your image */
+img#micha {
+  /* Setting it's width & height */
+  width: 200px;
+  height: 200px;
+
+  /* Adding 10px radius for each corner */
+  border-radius: 10px;
 }
