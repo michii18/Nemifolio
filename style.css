@@ -9,6 +9,8 @@
 body {
   /* Setting background color yo antique white */
   background: antiquewhite;
+  
+  font-family: cursive;
 }
 
 /* Header of the page, which is container for e-portfolio */
@@ -103,4 +105,70 @@ img#micha {
 
   /* Adding 10px radius for each corner */
   border-radius: 10px;
+}
+
+main h1 {
+  margin-top: 1em;
+  font-size: 48px;
+}
+
+main p {
+  margin: auto 1em auto 1em;
+  font-size: 24px;
+}
+
+main hr {
+  margin-top: 1em;
+  width: 90%;
+  
+  border-color: navajowhite;
+}
+
+main h3 {
+  margin: .5em auto 1em auto;
+}
+
+main h2 {
+  margin: .5em;
+  font-size: 32px;
+}
+
+table {
+  margin: 1em;
+  border-collapse: collapse;
+  width: 70px;
+  
+  font-family: monospace;
+}
+
+th, td {
+  border: 1px solid rosybrown;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: wheat;
+  font-weight: bold;
+}
+
+tr:nth-child(odd) {
+  background-color: floralwhite;
+}
+
+footer {
+  max-height: max-content;
+  max-width: 100%;
+  
+  background-color: wheat;
+  position: static;
+  
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin-top: 1em;
+  text-align: center;
+  font-size: 18px;
+  
+  border-radius: 25px;
 }
