@@ -81,6 +81,14 @@ a {
   margin-right: 25%;
 }
 
+h1, h2 {
+  font-family: 'Great Vibes', cursive;
+}
+
+p {
+  font-family: 'Dancing Script', cursive;
+}
+
 /* Main content of page */
 main {
   /* Making the container as flex 💪🏻 */
